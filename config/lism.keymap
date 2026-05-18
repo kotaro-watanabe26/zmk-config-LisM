@@ -66,10 +66,10 @@
         default_layer {
             display-name = "Default Layer";
             bindings = <
-&kp Q               &kp W         &kp E              &kp R    &kp T                                          &kp Y        &kp U  &kp I      &kp O       &lt 6 P
-&mt LEFT_CONTROL A  &kp S         &lt 6 D            &lt 5 F  &kp G                                          &kp H        &kp J  &kp K      &kp L       &mt RIGHT_CONTROL MINUS
-&mt LEFT_SHIFT Z    &kp X         &kp C              &kp V    &kp B                                          &kp N        &kp M  &kp COMMA  &kp DOT     &mt RIGHT_SHIFT SLASH
-&kp LEFT_GUI        &kp LEFT_ALT  &lt 4 PRINTSCREEN  &none    &mt LCTRL SPACE  &lt 1 TAB    &lt 2 BACKSPACE  &lt 3 ENTER  &none  &to 5      &kp ESCAPE  &kp DELETE
+&kp Q             &kp W         &kp E              &kp R    &kp T                                          &kp Y        &kp U  &kp I      &kp O       &lt 6 P
+&kp A             &kp S         &lt 6 D            &lt 5 F  &kp G                                          &kp H        &kp J  &kp K      &kp L       &kp MINUS
+&mt LEFT_SHIFT Z  &kp X         &kp C              &kp V    &kp B                                          &kp N        &kp M  &kp COMMA  &kp DOT     &mt RIGHT_SHIFT SLASH
+&kp LEFT_GUI      &kp LEFT_ALT  &lt 4 PRINTSCREEN  &none    &mt LCTRL SPACE  &lt 2 TAB    &lt 1 BACKSPACE  &lt 3 ENTER  &none  &to 5      &kp ESCAPE  &kp DELETE
             >;
 
             sensor-bindings = <&encoder_msc SCRL_DOWN SCRL_UP>;
@@ -78,10 +78,10 @@
         layer_1 {
             display-name = "Number Layer";
             bindings = <
-&none         &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS                   &kp ASTERISK  &kp F7  &kp F8  &kp F9  &kp F12
-&none         &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS                  &kp SLASH     &kp F4  &kp F5  &kp F6  &kp F11
-&kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL                  &kp EQUAL     &kp F1  &kp F2  &kp F3  &kp F10
-&none         &none         &none         &none         &none      &none    &none  &none         &none   &none   &none   &none
+&none  &kp F7  &kp F8  &kp F9  &kp F12                  &kp ASTERISK  &kp N7        &kp N8        &kp N9        &kp PLUS
+&none  &kp F4  &kp F5  &kp F6  &kp F11                  &kp SLASH     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS
+&none  &kp F1  &kp F2  &kp F3  &kp F10                  &kp NUMBER_0  &kp N1        &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL
+&none  &none   &none   &none   &none    &none    &none  &none         &none         &none         &none         &none
             >;
         };
 
@@ -121,8 +121,8 @@
             display-name = "Mouse Layer";
             bindings = <
 &trans  &trans  &trans  &trans  &trans                    &kp LC(V)  &mkp MCLK           &mkp MCLK            &trans              &mo 6
-&trans  &trans  &trans  &trans  &trans                    &kp LC(C)  &mkp LCLK           &mkp RCLK            &kp LA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)
-&trans  &trans  &trans  &trans  &trans                    &trans     &kp LG(LEFT_ARROW)  &kp RG(RIGHT_ARROW)  &trans              &trans
+&trans  &trans  &trans  &trans  &trans                    &kp LC(C)  &mkp LCLK           &mkp RCLK            &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)
+&trans  &trans  &trans  &trans  &trans                    &kp LC(X)  &kp RA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &trans              &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans              &to 0                &trans              &trans
             >;
         };
