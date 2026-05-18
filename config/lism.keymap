@@ -100,10 +100,10 @@
         layer_3 {
             display-name = "Arrow Layer";
             bindings = <
-&none   &none  &none  &none  &none                  &none  &none           &kp UP_ARROW    &none            &none
-&emoji  &none  &none  &none  &none                  &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp RIGHT_SHIFT
-&none   &none  &none  &none  &none                  &none  &none           &none           &none            &none
-&none   &none  &none  &none  &none  &none    &none  &none  &none           &none           &none            &none
+&none   &none  &none  &none  &none                  &kp LC(V)  &kp HOME        &kp UP_ARROW    &kp END          &none
+&emoji  &none  &none  &none  &none                  &kp LC(C)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp RIGHT_SHIFT
+&none   &none  &none  &none  &none                  &kp LC(X)  &none           &none           &none            &none
+&none   &none  &none  &none  &none  &none    &none  &none      &none           &none           &none            &none
             >;
         };
 
