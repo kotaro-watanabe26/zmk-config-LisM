@@ -8,12 +8,12 @@ layers:
   - T
   - Y
   - U
-  - I
+  - {t: I, h: Scroll Layer}
   - O
-  - {t: P, h: Scroll Layer}
+  - P
   - A
   - S
-  - {t: D, h: Scroll Layer}
+  - D
   - {t: F, h: Mouse Layer}
   - G
   - H
@@ -266,9 +266,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - HOME
-  - '&msc SCRL_UP'
+  - {t: '&msc SCRL_UP', type: held}
   - END
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -307,3 +307,7 @@ combos:
   l: [Default Layer]
 - p: [13, 12]
   k: LANGUAGE 2
+- p: [10, 11]
+  k: TAB
+- p: [11, 12]
+  k: Sft+TAB
