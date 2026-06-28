@@ -222,9 +222,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Ctl+V
-  - '&mkp MCLK'
-  - '&mkp MCLK'
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
   - Scroll Layer
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -233,9 +233,9 @@ layers:
   - {t: ▽, type: trans}
   - Ctl+C
   - '&mkp LCLK'
+  - '&mkp MCLK'
   - '&mkp RCLK'
-  - Gui+LEFT ARROW
-  - Gui+RIGHT ARROW
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -307,7 +307,5 @@ combos:
   l: [Default Layer]
 - p: [13, 12]
   k: LANGUAGE 2
-- p: [10, 11]
-  k: TAB
 - p: [11, 12]
-  k: Sft+TAB
+  k: TAB
