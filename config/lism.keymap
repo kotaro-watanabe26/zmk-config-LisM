@@ -61,11 +61,6 @@
 
         Tab {
             bindings = <&kp TAB>;
-            key-positions = <10 11>;
-        };
-
-        Shift+Tab {
-            bindings = <&kp LS(TAB)>;
             key-positions = <11 12>;
         };
     };
@@ -130,10 +125,10 @@
         layer_5 {
             display-name = "Mouse Layer";
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &kp LC(V)  &mkp MCLK           &mkp MCLK            &trans              &mo 6
-&trans  &trans  &trans  &trans  &trans                    &kp LC(C)  &mkp LCLK           &mkp RCLK            &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)
-&trans  &trans  &trans  &trans  &trans                    &kp LC(X)  &kp RA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &trans              &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans              &to 0                &trans              &trans
+&trans  &trans  &trans  &trans  &trans                    &kp LC(V)  &none               &none                &none      &mo 6
+&trans  &trans  &trans  &trans  &trans                    &kp LC(C)  &mkp LCLK           &mkp MCLK            &mkp RCLK  &none
+&trans  &trans  &trans  &trans  &trans                    &kp LC(X)  &kp RA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans              &to 0                &trans     &trans
             >;
         };
 
