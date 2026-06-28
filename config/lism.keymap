@@ -105,10 +105,10 @@
         layer_3 {
             display-name = "Arrow Layer";
             bindings = <
-&none   &none  &none  &none  &none                  &kp LC(V)  &kp HOME        &kp UP_ARROW    &kp END          &none
-&emoji  &none  &none  &none  &none                  &kp LC(C)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp RIGHT_SHIFT
-&none   &none  &none  &none  &none                  &kp LC(X)  &none           &none           &none            &none
-&none   &none  &none  &none  &none  &none    &none  &none      &none           &none           &none            &none
+&none   &none  &none  &none  &none                  &kp LC(V)  &kp HOME           &kp UP_ARROW     &kp END          &none
+&emoji  &none  &none  &none  &none                  &kp LC(C)  &kp LEFT_ARROW     &kp DOWN_ARROW   &kp RIGHT_ARROW  &kp RIGHT_SHIFT
+&none   &none  &none  &none  &none                  &kp LC(X)  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &none            &none
+&none   &none  &none  &none  &none  &none    &none  &none      &none              &none            &none            &none
             >;
         };
 
@@ -125,7 +125,7 @@
         layer_5 {
             display-name = "Mouse Layer";
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &kp LC(V)  &none               &none                &none      &mo 6
+&trans  &trans  &trans  &trans  &trans                    &kp LC(V)  &none               &trans               &none      &mo 6
 &trans  &trans  &trans  &trans  &trans                    &kp LC(C)  &mkp LCLK           &mkp MCLK            &mkp RCLK  &none
 &trans  &trans  &trans  &trans  &trans                    &kp LC(X)  &kp RA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &trans     &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans              &to 0                &trans     &trans
