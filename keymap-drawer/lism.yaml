@@ -156,8 +156,8 @@ layers:
   - ''
   - ''
   - Ctl+X
-  - ''
-  - ''
+  - VOLUME DOWN
+  - VOLUME UP
   - ''
   - ''
   - ''
@@ -223,7 +223,7 @@ layers:
   - {t: ▽, type: trans}
   - Ctl+V
   - ''
-  - ''
+  - {t: ▽, type: trans}
   - ''
   - Scroll Layer
   - {t: ▽, type: trans}
