@@ -33,10 +33,10 @@ layers:
   - {t: /, h: RIGHT SHIFT}
   - LEFT GUI
   - LEFT ALT
-  - {t: PRINTSCREEN, h: Device Layer}
-  - {t: ▽, type: trans}
+  - {t: TAB, h: Device Layer}
+  - {t: LANGUAGE 2, h: Mark Layer}
   - {t: SPACE, h: LCTRL}
-  - {t: TAB, h: Mark Layer}
+  - {t: LANGUAGE 1, h: LEFT SHIFT}
   - {t: BS, h: Number Layer}
   - {t: ENTER, h: Arrow Layer}
   - ''
@@ -87,7 +87,7 @@ layers:
   - ''
   - ''
   Mark Layer:
-  - ''
+  - PRINTSCREEN
   - '&'
   - '*'
   - (
@@ -120,9 +120,9 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
   - {type: held}
+  - ''
+  - ''
   - ''
   - ''
   - ''
@@ -309,3 +309,5 @@ combos:
   k: LANGUAGE 2
 - p: [11, 12]
   k: TAB
+- p: [1, 2]
+  k: ESCAPE
