@@ -36,7 +36,7 @@ layers:
   - {t: TAB, h: Device Layer}
   - {t: LANGUAGE 2, h: Mark Layer}
   - {t: SPACE, h: LCTRL}
-  - {t: LANGUAGE 1, h: LEFT SHIFT}
+  - {t: TAB, h: Mark Layer}
   - {t: BS, h: Number Layer}
   - {t: ENTER, h: Arrow Layer}
   - ''
